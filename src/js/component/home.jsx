@@ -62,7 +62,7 @@ const Home = () => {
 	let btnGroup = 
 		<section>
 			<div className="uiverse">
-				<span className="tooltip">start tarffic light</span>
+				<span className="tooltip">{isStart ? "stop tarffic light" : "start tarffic light"}</span>
 				<span onClick={startTrafficLight}>
 					{isStart ? "Stop" : "Start"} 
 				</span>
