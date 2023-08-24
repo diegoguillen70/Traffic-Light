@@ -64,7 +64,7 @@ const Home = () => {
 			<div className="uiverse">
 				<span className="tooltip">start tarffic light</span>
 				<span onClick={startTrafficLight}>
-					Start
+					{isStart ? "Stop" : "Start"} 
 				</span>
 			</div>
 			<div className="uiverse">
