@@ -8,9 +8,9 @@ import '../../styles/index.css'
 const Home = () => {
 	const [color, setColor] = useState('red');    
 	const [isShow, setIsShow] = useState(false);
-	const [redTime, setRedTime] = useState(10);
+	const [redTime, setRedTime] = useState(3);
 	const [yellowTime, setYellowTime] = useState(3);
-	const [greenTime, setGreenTime] = useState(5);
+	const [greenTime, setGreenTime] = useState(3);
 	const [isStart, setStart] = useState(false);
 	const [timerInterval, setTimerInterval] = useState(3000);
 	const timerRed = useRef(0)
